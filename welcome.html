@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoYatra</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="left-section">
+      <a href="home.html"><img src="logo.png" class="logo"></a>
+
+      <a href="about.html" class="about">About</a>
+  </div>
+
+  <div class="search-box">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Search places...">
+  </div>
+</nav>
+<div class="welcome-section">
+    <h1>Welcome to EcoYatra</h1>
+    <p>Your gateway to sustainable travel experiences.</p>
+    <section class="states-section">
+
+<h2>Select a State</h2>
+
+<div class="states-container">
+
+<div class="state-card" onclick="showPlaces('Andhra Pradesh')">Andhra Pradesh</div>
+<div class="state-card" onclick="showPlaces('Arunachal Pradesh')">Arunachal Pradesh</div>
+<div class="state-card" onclick="showPlaces('Assam')">Assam</div>
+<div class="state-card" onclick="showPlaces('Bihar')">Bihar</div>
+<div class="state-card" onclick="showPlaces('Chhattisgarh')">Chhattisgarh</div>
+<div class="state-card" onclick="showPlaces('Goa')">Goa</div>
+<div class="state-card" onclick="showPlaces('Gujarat')">Gujarat</div>
+<div class="state-card" onclick="showPlaces('Haryana')">Haryana</div>
+<div class="state-card" onclick="showPlaces('Himachal Pradesh')">Himachal Pradesh</div>
+<div class="state-card" onclick="showPlaces('Jharkhand')">Jharkhand</div>
+<div class="state-card" onclick="showPlaces('Karnataka')">Karnataka</div>
+<div class="state-card" onclick="showPlaces('Kerala')">Kerala</div>
+<div class="state-card" onclick="showPlaces('Madhya Pradesh')">Madhya Pradesh</div>
+<div class="state-card" onclick="showPlaces('Maharashtra')">Maharashtra</div>
+<div class="state-card" onclick="showPlaces('Manipur')">Manipur</div>
+<div class="state-card" onclick="showPlaces('Meghalaya')">Meghalaya</div>
+<div class="state-card" onclick="showPlaces('Mizoram')">Mizoram</div>
+<div class="state-card" onclick="showPlaces('Nagaland')">Nagaland</div>
+<div class="state-card" onclick="showPlaces('Odisha')">Odisha</div>
+<div class="state-card" onclick="showPlaces('Punjab')">Punjab</div>
+<div class="state-card" onclick="showPlaces('Rajasthan')">Rajasthan</div>
+<div class="state-card" onclick="showPlaces('Sikkim')">Sikkim</div>
+<div class="state-card" onclick="showPlaces('Tamil Nadu')">Tamil Nadu</div>
+<div class="state-card" onclick="showPlaces('Telangana')">Telangana</div>
+<div class="state-card" onclick="showPlaces('Tripura')">Tripura</div>
+<div class="state-card" onclick="showPlaces('Uttar Pradesh')">Uttar Pradesh</div>
+<div class="state-card" onclick="showPlaces('Uttarakhand')">Uttarakhand</div>
+<div class="state-card" onclick="showPlaces('West Bengal')">West Bengal</div>
+
+</div>  
+<section class="places-section">
+<h2>Tourist Places</h2>
+
+<div id="places-container"></div>
+
+</section>
+<footer>
+    <p>&copy; 2026 EcoYatra. All rights reserved.</p>
+</footer>
+
+<script src="places.js"></script>
+</body>
+</html>

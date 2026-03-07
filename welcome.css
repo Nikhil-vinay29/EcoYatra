@@ -1,0 +1,106 @@
+body{
+  margin:0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+  background: lightgreen;
+}
+
+.left-section{
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+
+.logo{
+  width:80px;
+}
+.welcome-section{
+  font-size:15px;
+  font-weight:bold;
+  text-align: center;
+  color:darkgreen;
+}
+.about{
+  text-decoration:none;
+  font-size:18px;
+  color:black;
+}
+.about:hover{
+  color:darkgreen;
+}
+
+.search-box{
+  display:flex;
+  align-items:center;
+  border:2px solid green;
+  border-radius:25px;
+  padding:6px 12px;
+}
+
+.search-box i{
+  margin-right:8px;
+}
+
+.search-box input{
+  border:none;
+  outline:none;
+  background-color: lightgreen;
+  font-size:14px;
+}
+footer {
+    background-color: lightgreen;
+    padding: 5px;
+    text-align: center;
+}
+.states-section{
+text-align:center;
+padding:40px;
+}
+
+.states-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.state-card{
+background:#2ecc71;
+color:white;
+padding:20px;
+border-radius:8px;
+cursor:pointer;
+font-weight:bold;
+transition:0.3s;
+}
+
+.state-card:hover{
+background:#27ae60;
+transform:scale(1.05);
+}
+
+.places-section{
+text-align:center;
+padding:30px;
+}
+
+#places-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.place-card{
+background:white;
+border:1px solid #ddd;
+border-radius:8px;
+padding:15px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
